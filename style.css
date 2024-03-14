@@ -1,0 +1,142 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo del cuerpo de la página */
+body {
+    font-family: 'Arial', sans-serif;
+    background: rgb(174, 238, 228);
+    background: radial-gradient(circle, rgba(174, 238, 228, 1) 0%, rgba(95, 43, 185, 1) 100%);
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Contenedor principal */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+/* Navegación */
+nav {
+    background-color: #555;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    background-color: #333; /* Color de la barra de navegación */
+    padding: 10px 0; /* Espaciado interno */
+    margin-bottom: 20px; /* Margen inferior para separar del contenido */
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out; /* Efecto de transición de color */
+}
+
+nav a:hover {
+    color: #39bda7; /* Cambia el color al pasar el mouse */
+}
+
+/* Contenedor de productos */
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.producto {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 20px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease-in-out; /* Efecto de transición de sombra */
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Bordes redondeados para las imágenes */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.producto h2 {
+    margin-top: 10px;
+    color: #333; /* Color del título */
+}
+
+.producto p {
+    margin: 10px 0;
+    color: #555; /* Color del texto */
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+/* Enlaces */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+/* Añade el siguiente estilo para las líneas divisoras entre comentarios */
+.producto ul {
+    list-style: none;
+    padding: 0;
+}
+
+.producto li {
+    margin-bottom: 10px; /* Ajusta según sea necesario para separar los comentarios */
+    border-bottom: 1px solid #000000; /* Línea divisora */
+    padding-bottom: 5px; /* Espacio entre la línea divisora y el siguiente comentario */
+}
+/* Botón añadir al carrito */
+.button {
+    display: inline-block;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    font-size: 18px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #39bda7;
+}
+
+.button:hover {
+    background-color: #00796b; /* Cambia el color al pasar el mouse */
+}
+
